@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Site de Artistas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <h1>Eventos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="artistas.html">Artistas</a></li>
+                <li><a href="eventos.html">Eventos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="events-list">
+        <h2>Agenda de Shows e Eventos</h2>
+        <div class="event-item">
+            <h3>Nome do Evento</h3>
+            <p><strong>Data:</strong> 10 de Setembro de 2024</p>
+            <p><strong>Local:</strong> Nome do Local, Cidade</p>
+            <p><strong>Descrição:</strong> Breve descrição do evento, destacando o que o torna especial.</p>
+        </div>
+        <!-- Adicione mais blocos de eventos conforme necessário -->
+    </section>
+
+    <section class="contact-form">
+        <h2>Solicite um Show ou Evento</h2>
+        <form action="mailto:email-do-artista@example.com" method="POST" enctype="text/plain">
+            <label for="name">Seu Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Seu Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="event-details">Detalhes do Evento:</label>
+            <textarea id="event-details" name="event-details" rows="5" required></textarea>
+
+            <button type="submit">Enviar Solicitação</button>
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <p>&copy; 2024 ASTRAL RECORDS. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
