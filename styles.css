@@ -230,61 +230,47 @@ nav ul li a:hover {
     margin: 20px 0;
     border-radius: 8px;
     border-left: 5px solid #3498db;
-}
-
-.event-item h3 {
-    margin-top: 0;
-    color: #ffffff;
-}
-
-.event-item p {
-    color: #b0b0b0;
-}
-
-.contact-form {
-    margin: 50px auto;
-    max-width: 800px;
-    padding: 20px;
-    background-color: #1e1e1e;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-}
-
-.contact-form h2 {
-    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
 }
 
-.contact-form label {
-    display: block;
+.event-poster {
+    width: 100%;
+    text-align: center;
+}
+
+.event-poster img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event-details {
+    margin-top: 20px;
+}
+
+.event-details h3 {
+    color: #ffffff;
     margin-bottom: 10px;
+}
+
+.event-details p {
     color: #b0b0b0;
+    margin-bottom: 10px;
 }
 
-.contact-form input[type="text"],
-.contact-form input[type="email"],
-.contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    background-color: #282828;
-    color: #e0e0e0;
-    border: 1px solid #333;
-    border-radius: 4px;
-}
-
-.contact-form button {
-    display: block;
-    width: 100%;
-    padding: 10px;
+.event-details .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
     background-color: #3498db;
     color: #ffffff;
-    border: none;
+    text-decoration: none;
     border-radius: 4px;
-    cursor: pointer;
 }
 
-.contact-form button:hover {
+.event-details .cta-button:hover {
     background-color: #2980b9;
 }
 
