@@ -234,6 +234,8 @@ nav ul li a:hover {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 500px; /* Altura fixa para o item de evento */
+    overflow: hidden; /* Esconde o excesso de conteúdo */
 }
 
 .event-poster {
@@ -242,13 +244,15 @@ nav ul li a:hover {
 }
 
 .event-poster img {
-    max-width: 400px;
+    max-width: 300px; /* Tamanho máximo da imagem */
     height: auto;
     border-radius: 8px;
+    max-height: 200px; /* Altura máxima da imagem */
 }
 
 .event-details {
     margin-top: 20px;
+    flex-grow: 1; /* Permite que o conteúdo se expanda conforme necessário */
 }
 
 .event-details h3 {
@@ -259,6 +263,9 @@ nav ul li a:hover {
 .event-details p {
     color: #b0b0b0;
     margin-bottom: 10px;
+    max-height: 100px; /* Altura máxima do texto */
+    overflow: hidden; /* Esconde o excesso de texto */
+    text-overflow: ellipsis; /* Adiciona reticências se o texto for muito longo */
 }
 
 .event-details .cta-button {
