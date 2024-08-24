@@ -241,8 +241,8 @@ nav ul li a:hover {
     text-align: center;
 }
 
-event-poster img {
-    max-width: 300px;
+.event-poster img {
+    max-width: 400px;
     height: auto;
     border-radius: 8px;
 }
@@ -251,12 +251,12 @@ event-poster img {
     margin-top: 20px;
 }
 
-event-details h3 {
+.event-details h3 {
     color: #ffffff;
     margin-bottom: 10px;
 }
 
-event-details p {
+.event-details p {
     color: #b0b0b0;
     margin-bottom: 10px;
 }
@@ -322,6 +322,7 @@ event-details p {
     background-color: #8e44ad; /* Alterado para um roxo mais escuro */
 }
 
+/* Página Contato */
 .contact-info {
     margin: 50px auto;
     max-width: 800px;
