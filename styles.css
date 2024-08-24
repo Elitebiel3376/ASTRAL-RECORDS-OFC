@@ -128,7 +128,7 @@ nav ul li a:hover {
     border-left: 5px solid #9b59b6; /* Alterado para roxo */
     display: flex;
     align-items: center;
-    max-width: 400px; /* Mesmo tamanho do post de evento */
+    max-width: 200px; /* Mesmo tamanho do post de evento */
     margin: 20px auto; /* Centralizando */
 }
 
