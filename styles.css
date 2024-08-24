@@ -118,55 +118,54 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Página Artistas */
-.artist-list {
-    margin: 50px auto;
-    max-width: 1000px;
-    padding: 20px;
-    background-color: #1e1e1e;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 8px;
-}
-
-.artist-list h2 {
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.artist-card {
+/* Página Eventos */
+.event-item {
     background-color: #282828;
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px auto;
     border-radius: 8px;
     border-left: 5px solid #9b59b6; /* Alterado para roxo */
-    display: flex;
-    align-items: center;
+    max-width: 400px; /* Mesmo tamanho do post de artista */
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-.artist-card img {
-    width: 150px;
+.event-poster {
+    width: 100%;
+    text-align: center;
+}
+
+.event-poster img {
+    max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-right: 20px;
 }
 
-.artist-card h3 {
-    margin-top: 0;
+.event-details {
+    margin-top: 20px;
+}
+
+.event-details h3 {
     color: #ffffff;
+    margin-bottom: 10px;
 }
 
-.artist-card p {
+.event-details p {
     color: #b0b0b0;
+    margin-bottom: 10px;
 }
 
-.artist-card a {
-    color: #9b59b6; /* Alterado para roxo */
+.event-details .cta-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #9b59b6; /* Alterado para roxo */
+    color: #ffffff;
     text-decoration: none;
+    border-radius: 4px;
 }
 
-.artist-card a:hover {
-    text-decoration: underline;
+.event-details .cta-button:hover {
+    background-color: #8e44ad; /* Alterado para um roxo mais escuro */
 }
 
 /* Página Detalhes do Artista */
